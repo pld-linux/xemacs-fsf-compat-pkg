@@ -1,8 +1,9 @@
 Summary:	FSF Emacs compatibility files
+Summary(pl):	Pliki dla kompatybilno¶ci z FSF Emacsem
 Name:		xemacs-fsf-compat-pkg
 %define 	srcname	fsf-compat
 Version:	1.09
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
 Group(de):	Applikationen/Editors/Emacs
@@ -16,6 +17,9 @@ Requires:	xemacs
 
 %description
 FSF Emacs compatibility files.
+
+%description -l pl
+Pliki dla kompatybilno¶ci z FSF Emacsem.
 
 %prep
 %setup -q -c

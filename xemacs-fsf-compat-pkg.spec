@@ -7,6 +7,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
+# Source0-md5:	5616165f4aa5bf4a45982e9185851d22
 URL:		http://www.xemacs.org/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch

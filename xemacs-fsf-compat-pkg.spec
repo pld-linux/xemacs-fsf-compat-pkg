@@ -9,16 +9,14 @@ Group:		Applications/Editors/Emacs
 Group(pl):	Aplikacje/Edytory/Emacs
 URL:		http://www.xemacs.org
 Source0:	ftp://ftp.xemacs.org/packages/%{srcname}-%{version}-pkg.tar.gz
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
 Requires:	xemacs
 
 %description
 
-
 %description -l pl 
-
 
 %prep
 %setup -q -c
@@ -33,7 +31,6 @@ gzip -9nf lisp/fsf-compat/README lisp/fsf-compat/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
-
 
 %files
 %defattr(644,root,root,755)

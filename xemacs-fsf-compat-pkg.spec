@@ -1,7 +1,7 @@
 Summary:	FSF Emacs compatibility files
 Name:		xemacs-fsf-compat-pkg
 %define 	srcname	fsf-compat
-Version:	1.07
+Version:	1.08
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs

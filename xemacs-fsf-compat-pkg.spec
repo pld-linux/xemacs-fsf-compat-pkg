@@ -1,22 +1,21 @@
 Summary:	FSF Emacs compatibility files
-Summary(pl):	FSF Emacs compatibility files
 Name:		xemacs-fsf-compat-pkg
 %define 	srcname	fsf-compat
 Version:	1.07
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
+Group(de):	Applikationen/Editors/Emacs
 Group(pl):	Aplikacje/Edytory/Emacs
-URL:		http://www.xemacs.org
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
+URL:		http://www.xemacs.org/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
 Requires:	xemacs
 
 %description
-
-%description -l pl 
+FSF Emacs compatibility files.
 
 %prep
 %setup -q -c
@@ -30,7 +29,7 @@ cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 gzip -9nf lisp/fsf-compat/README lisp/fsf-compat/ChangeLog 
 
 %clean
-rm -fr $RPM_BUILD_ROOT
+rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)

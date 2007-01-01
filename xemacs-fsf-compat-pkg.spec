@@ -2,12 +2,12 @@ Summary:	FSF Emacs compatibility files
 Summary(pl):	Pliki dla kompatybilno¶ci z FSF Emacsem
 Name:		xemacs-fsf-compat-pkg
 %define 	srcname	fsf-compat
-Version:	1.14
-Release:	2
+Version:	1.15
+Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
-Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	864435dc2ed47d956ff8a5bab7f19189
+Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
+# Source0-md5:	a68d000cf16b054b20a56e917d57e712
 URL:		http://www.xemacs.org/
 Requires:	xemacs
 Conflicts:	xemacs-sumo

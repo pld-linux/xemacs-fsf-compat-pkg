@@ -1,5 +1,5 @@
 Summary:	FSF Emacs compatibility files
-Summary(pl.UTF-8):   Pliki dla kompatybilności z FSF Emacsem
+Summary(pl.UTF-8):	Pliki dla kompatybilności z FSF Emacsem
 Name:		xemacs-fsf-compat-pkg
 %define 	srcname	fsf-compat
 Version:	1.15
